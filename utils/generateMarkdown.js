@@ -15,7 +15,18 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) { }
+function renderLicenseLink(license) {}
+// let licenseLink = license;
+// if (licenseLink === "MIT") {
+//   return `[![License: MIT](https://opensource.org/licenses/MIT)`
+// } else if (licenseLink === "Apache") {
+//   return `[![License](https://opensource.org/licenses/Apache-2.0)`
+// } else if (licenseLink === "GNU GPL v3") {
+//   return `[![License: GPL v3](https://www.gnu.org/licenses/gpl-3.0)`
+// } else {
+//   return "N/A";
+// }
+// };
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -64,7 +75,6 @@ function renderLicenseSection(license) {
   }
 };
 
-
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
@@ -88,7 +98,7 @@ ${data.install}
 
 ## Usage
 ${data.usage}
-[Github Link](${data.gitHubProjectLink})
+[Github Link](https://github.com/${data.username}/${data.gitHubProjectLink})
 
 ## License
 ${renderLicenseSection(data.license)}
@@ -100,7 +110,7 @@ ${data.collaborators}
 ${data.tests}
 
 ## Questions
-Please checkout my [GitHub](${data.gitHubProfileLink}) for other projects. If you have any other questions or concerns, feel free to email me at ${data.emailLink}.
+Please checkout my [Github](https://github.com/${data.username}) for other projects. If you have any other questions or concerns, feel free to email me at ${data.emailLink}.
 
 `;
 }

@@ -67,7 +67,7 @@ const questions = [
     {
         type: "input",
         name: "collaborators",
-        message: "Please enter your collaborators"
+        message: "Please enter your collaborators with links to their Github profiles, tutorials or any third- party assets that require attribution"
     },
     {
         type: "list",
@@ -99,26 +99,26 @@ const questions = [
     },
     {
         type: "input",
-        name: "gitHubProjectLink",
-        message: "Enter the Github link to your project. (Required)",
-        validate: gitHubProjectLink=> {
-            if (gitHubProjectLink) {
+        name: "username",
+        message: "Enter your Github Username. (Required)",
+        validate: username=> {
+            if (username) {
                 return true;
             } else {
-                console.log("Please enter the link to your Github project");
+                console.log("Please enter your Github username");
                 return false;
             }
         }
     },
     {
         type: "input",
-        name: "gitHubProfileLink",
-        message: "Enter the Github link to your Profile. (Required)",
-        validate: gitHubProLink=> {
-            if (gitHubProLink) {
+        name: "gitHubProjectLink",
+        message: "Enter your repositories name. Example: readme-generator. (Required)",
+        validate: gitHubProjectLink=> {
+            if (gitHubProjectLink) {
                 return true;
             } else {
-                console.log("Please enter the link to your Github Profile");
+                console.log("Please enter the link to your Github project");
                 return false;
             }
         }
@@ -157,13 +157,13 @@ init();
 // THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests- Done
 
 // WHEN I choose a license for my application from a list of options
-// THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under- done?
+// THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under- done
 
 // WHEN I enter my GitHub username
-// THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile-?
+// THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile-done
 
 // WHEN I enter my email address
 // THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions- done
 
 // WHEN I click on the links in the Table of Contents
-// THEN I am taken to the corresponding section of the README-?
+// THEN I am taken to the corresponding section of the README-done

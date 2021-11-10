@@ -1,10 +1,10 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
-# dhshah
+# ReadMe- Generator
 
 ## Description
-ah
+This application was created in order to create professional quality ReadMe files, quickly. By creating a ReadMe this is enabling users to showcase their work to employers and developers without them having to dive in the code itself.  
 
 ## Table of Contents
 * [Installation](#installation)
@@ -15,11 +15,11 @@ ah
 * [Questions](#questions)
 
 ## Installation
-undefined
+In order to install this application, please clone the repo, then install the depencies "Inquirer and Node". Once done open your projects terminal, run the words "node index" in your command line and follow the promps. 
 
 ## Usage
-undefined
-[Github Link](sh)
+
+[Github Link](https://github.com/jenmlucas/readme-generator)
 
 ## License
 MIT License
@@ -45,11 +45,11 @@ MIT License
     SOFTWARE.
 
 ## Contribution
-shs
+In order to install this application, please clone the repo, then install the depencies "Inquirer and Node". Once done open your projects terminal, run the words "node index" in your command line and follow the promps. 
 
 ## Tests
 N/A
 
 ## Questions
-Please checkout my [GitHub](s) for onther projects. If you have any other questions or concerns, feel free to email me at shs.
+Please checkout my [Github](https://github.com/jenmlucas) for other projects. If you have any other questions or concerns, feel free to email me at jenmlucas1@gmail.com.
 
