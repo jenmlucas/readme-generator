@@ -22,6 +22,8 @@ This is what the application will look like on your device.
 
 [Github Link](https://github.com/jenmlucas/readme-generator)
 
+![ReadMe Generator Screenshot](./images/screenshot.png)
+
 ## License
 MIT License
 
