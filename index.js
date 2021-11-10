@@ -6,7 +6,6 @@ const generateMarkdown = require("./utils/generateMarkdown");
 // TODO: Create an array of questions for user input
 const questions = [
     {
-        type: "input",
         name: "readMe",
         message: "Let's create a ReadMe. (Press Enter to Begin)",
     },
@@ -67,12 +66,12 @@ const questions = [
     {
         type: "input",
         name: "collaborators",
-        message: "Please enter your collaborators with links to their Github profiles, tutorials or any third- party assets that require attribution"
+        message: "Please add your contributions."
     },
     {
         type: "list",
         name: "license",
-        message: "Choose a License for this project",
+        message: "Choose a License for this project.",
         choices: [
             "MIT",
             "Apache",
@@ -126,9 +125,9 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-    const inputData = generateMarkdown(data)
-    fs.writeFile(fileName, inputData, (err) => {
+function writeToFile(filename, readMeData) {
+    const inputData = generateMarkdown(readMeData)
+    fs.writeFile(filename, inputData, (err) => {
         if (err) { console.log(err) }
     })
 }
@@ -136,7 +135,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer
         .prompt(questions)
-        .then((answers) => writeToFile("ProjectReadMe.md", answers))
+        .then((answers) => writeToFile("./dist/ProjectReadMe.md", answers))
         .catch((error) => console.log(error))
 }
 

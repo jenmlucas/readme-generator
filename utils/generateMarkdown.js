@@ -97,13 +97,14 @@ ${data.description}
 ${data.install}
 
 ## Usage
+This is what the application will look like on your device.
 ${data.usage}
 [Github Link](https://github.com/${data.username}/${data.gitHubProjectLink})
 
 ## License
 ${renderLicenseSection(data.license)}
 
-## Contribution
+## Contributing
 ${data.collaborators}
 
 ## Tests
