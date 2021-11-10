@@ -25,7 +25,7 @@ const questions = [
     {
         input: "input",
         name: "description",
-        message: "Please enter your descritption:",
+        message: "Please enter your description:",
     },
     {
         type: "confirm",
