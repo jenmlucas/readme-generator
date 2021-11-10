@@ -1,10 +1,10 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
-# ReadMe- Generator 
+# Title
 
 ## Description
-This application was created in order to help the user generate a professional quality ReadMe file, in a quick manner. Creating a ReadMe, is enabling users to showcase their work to employers along with other developers without them having to dive into the code itself.
+This is a description 
 
 ## Table of Contents
 * [Installation](#installation)
@@ -15,14 +15,12 @@ This application was created in order to help the user generate a professional q
 * [Questions](#questions)
 
 ## Installation
-In order to install this application, please clone the repo, than install the dependencies "Inquirer in Node". Once done, open your projects terminal, run the words "node index" in your command line and follow the prompts.
+install process
 
 ## Usage
 This is what the application will look like on your device.
-
+usage section
 [Github Link](https://github.com/jenmlucas/readme-generator)
-
-![ReadMe Generator Screenshot](./images/screenshot.png)
 
 ## License
 MIT License
@@ -51,7 +49,7 @@ MIT License
 Jennifer Lucas 
 
 ## Tests
-N/A
+test test
 
 ## Questions
 Please checkout my [Github](https://github.com/jenmlucas) for other projects. If you have any other questions or concerns, feel free to email me at jenmlucas1@gmail.com.
