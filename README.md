@@ -10,7 +10,7 @@ This application was created in order to help the user generate a professional q
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
-* [Contributing](#contribution)
+* [Contributing](#contributing)
 * [Test](#test)
 * [Questions](#questions)
 
