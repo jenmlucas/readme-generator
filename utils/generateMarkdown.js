@@ -89,7 +89,7 @@ ${data.description}
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
-* [Contributing](#contribution)
+* [Contributing](#contributing)
 * [Test](#test)
 * [Questions](#questions)
 
